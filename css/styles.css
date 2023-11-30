@@ -1,0 +1,215 @@
+/* Base styles */
+body {
+  color: #111111;
+  background-color: #fafafa;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+/* Header section */
+.header {
+  background-color: #e7e9fc;
+}
+.header-nav {
+}
+.header-nav:hover,
+.header-nav:active {
+  color: #404bbf;
+}
+.header-nav:focus {
+  color: #404bbf;
+}
+.header-logo {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.header-logo-accent {
+  color: var(--IRIS, #4d5ae5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.header-list {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-weight: 500;
+}
+.header-item {
+}
+.header-list-link {
+}
+.header-adress {
+}
+.adress-list {
+}
+.adress-item {
+  font-style: normal;
+  color: var(--SLATE, #434455);
+  font-weight: 400;
+}
+.adress-mail {
+}
+.adress-tel {
+}
+
+/* Hero section */
+.hero {
+  background-color: #2e2f42;
+}
+.hero-item {
+  color: var(--WHITE, #fff);
+  text-align: center;
+
+  /* Header 1 */
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 107.143% */
+  letter-spacing: 1.12px;
+}
+.hero-btn {
+  border-radius: 4px;
+  background: var(--IRIS, #4d5ae5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: var(--WHITE, #fff);
+
+  /* Button Text */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
+.hero-btn:hover,
+.hero-btn:active {
+}
+border-radius: 4px;
+background: var(--OCEAN, #404bbf);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+/* Features section */
+.features {
+  background: #fff;
+}
+.features-list {
+}
+.features-item {
+}
+.features-caption {
+  color: var(--NAVY-BLUE, #2e2f42);
+
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
+}
+.features-desc {
+  color: var(--SLATE, #434455);
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+/* Team section */
+.team {
+  background-color: #f4f4fd;
+}
+.team-title {
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+
+  /* Header 2 */
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.team-list {
+}
+.team-item {
+}
+.team-pic {
+}
+.team-caption {
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
+}
+.team-desk {
+  color: var(--SLATE, #434455);
+  text-align: center;
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+/* Footer section */
+.footer {
+  background-color: #2e2f42;
+}
+.footer-logo {
+  color: var(--CLOUD, #f4f4fd);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.footer-logo-accent {
+  color: var(--IRIS, #4d5ae5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.footer-text {
+  color: var(--CLOUD, #f4f4fd);
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
