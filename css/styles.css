@@ -1,8 +1,8 @@
 /* Base styles */
 body {
-  color: #111111;
-  background-color: #fafafa;
-  font-family: Roboto;
+  color: #434455;
+  background-color: #ffffff;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
@@ -55,7 +55,7 @@ body {
 .adress-list {
 }
 .adress-item {
-  color: var(--SLATE, #434455);
+  color: #434455;
   font-weight: 400;
 }
 .adress-mail {
@@ -80,8 +80,7 @@ body {
 .hero-btn {
   border-radius: 4px;
   background: var(--IRIS, #4d5ae5);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  color: var(--WHITE, #fff);
+  color: #fff;
 
   /* Button Text */
   font-size: 16px;
@@ -91,10 +90,8 @@ body {
 }
 .hero-btn:hover,
 .hero-btn:active {
+  background: #404bbf;
 }
-border-radius: 4px;
-background: var(--OCEAN, #404bbf);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 
 /* Features section */
 .features {
