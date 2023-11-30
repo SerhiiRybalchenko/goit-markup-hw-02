@@ -6,6 +6,7 @@ body {
   font-size: 16px;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
+  font-style: normal;
 }
 
 /* Header section */
@@ -54,7 +55,6 @@ body {
 .adress-list {
 }
 .adress-item {
-  font-style: normal;
   color: var(--SLATE, #434455);
   font-weight: 400;
 }
@@ -72,9 +72,7 @@ body {
   text-align: center;
 
   /* Header 1 */
-  font-family: Roboto;
   font-size: 56px;
-  font-style: normal;
   font-weight: 700;
   line-height: 60px; /* 107.143% */
   letter-spacing: 1.12px;
@@ -86,9 +84,7 @@ body {
   color: var(--WHITE, #fff);
 
   /* Button Text */
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
@@ -140,9 +136,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   text-align: center;
 
   /* Header 2 */
-  font-family: Roboto;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 40px; /* 111.111% */
   letter-spacing: 0.72px;
@@ -159,9 +153,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   text-align: center;
 
   /* Header 3 */
-  font-family: Roboto;
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 24px; /* 120% */
   letter-spacing: 0.4px;
@@ -171,9 +163,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   text-align: center;
 
   /* Body */
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
@@ -186,7 +176,6 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: var(--CLOUD, #f4f4fd);
   font-family: Raleway;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
   line-height: 21px; /* 116.667% */
   letter-spacing: 0.54px;
@@ -196,7 +185,6 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: var(--IRIS, #4d5ae5);
   font-family: Raleway;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
   line-height: 21px; /* 116.667% */
   letter-spacing: 0.54px;
@@ -206,9 +194,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: var(--CLOUD, #f4f4fd);
 
   /* Body */
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
