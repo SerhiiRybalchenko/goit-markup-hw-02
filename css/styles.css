@@ -62,12 +62,16 @@ button {
   color: #2e2f42;
 }
 .header-list {
-  color: #2e2f42;
+  color: #434455;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .header-item {
+  color: #434455;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .header-list-link {
 }
@@ -165,7 +169,7 @@ button {
   background-color: #2e2f42;
 }
 .footer-logo {
-  color: #f4f4fd;
+  color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -174,7 +178,7 @@ button {
   text-transform: uppercase;
 }
 .logo-span-footer {
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 .footer-text {
   color: #f4f4fd;
