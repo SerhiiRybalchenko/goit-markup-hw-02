@@ -117,11 +117,16 @@ button {
   background: #404bbf;
 }
 
+.hero-btn:focus {
+  background-color: #404bbf;
+}
+
 /* Features section */
 .features {
   background: #fff;
 }
 .features-list {
+  background: #fff;
 }
 .features-item {
 }
