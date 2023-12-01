@@ -50,7 +50,7 @@ button {
 }
 
 .header-logo {
-  color: #2e2f42;
+  color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -58,8 +58,8 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.span {
-  color: #4d5ae5;
+.logo-span-header {
+  color: #2e2f42;
 }
 .header-list {
   color: #2e2f42;
@@ -173,7 +173,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.span {
+.logo-span-footer {
   color: #4d5ae5;
 }
 .footer-text {
