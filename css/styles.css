@@ -135,7 +135,7 @@ button {
 
 /* Team section */
 .team {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
 .team-title,
 .portfolio-title {
@@ -148,8 +148,10 @@ button {
   text-transform: capitalize;
 }
 .team-list {
+  background-color: #ffffff;
 }
 .team-item {
+  background-color: #ffffff;
 }
 .team-pic {
 }
