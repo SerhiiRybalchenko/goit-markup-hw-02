@@ -44,10 +44,6 @@ button {
 }
 .header-nav {
 }
-.header-nav:hover,
-.header-nav:focus {
-  color: #404bbf;
-}
 
 .header-logo {
   color: #4d5ae5;
@@ -67,17 +63,16 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.header-nav:hover,
+.header-nav:focus {
+  color: #404bbf;
+}
 .header-item {
-  color: #434455;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 .header-list-link {
 }
 .header-adress {
   color: #434455;
-  font-weight: 400;
   font-style: normal;
 }
 .adress-list {
@@ -87,6 +82,10 @@ button {
 .adress-mail {
 }
 .adress-tel {
+  color: #434455;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* Hero section */
@@ -148,6 +147,7 @@ button {
   text-transform: capitalize;
 }
 .team-list {
+  background-color: #ffffff;
 }
 .team-item {
 }
