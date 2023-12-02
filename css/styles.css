@@ -138,7 +138,8 @@ button {
 .team {
   background-color: #f4f4fd;
 }
-.team-title {
+.team-title,
+.portfolio-title {
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
@@ -147,26 +148,50 @@ button {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.team-list {
+.team-list,
+.portfolio-list {
+  background-color: #ffffff;
 }
 .team-item {
 }
 .team-pic {
 }
-.team-caption {
+.team-caption,
+.portfolio-caption {
   color: #2e2f42;
-  text-align: center;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   background-color: #ffffff;
 }
+.team-caption {
+  text-align: center;
+}
 
 .team-desk {
   background-color: #ffffff;
   text-align: center;
 }
+
+/* Portfolio section */
+.portfolio {
+  background-color: #f4f4fd;
+}
+.portfolio-title {
+}
+.portfolio-list {
+  background-color: #e7e9fc;
+}
+.portfolio-item {
+}
+.portfolio-caption {
+}
+.portfolio-pic {
+}
+.portfolio-desk {
+}
+
 /* Footer section */
 .footer {
   background-color: #2e2f42;
