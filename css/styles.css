@@ -181,7 +181,6 @@ button {
 .portfolio-title {
 }
 .portfolio-list {
-  background-color: #e7e9fc;
 }
 .portfolio-item {
 }
@@ -190,6 +189,7 @@ button {
 .portfolio-pic {
 }
 .portfolio-desk {
+  background-color: #e7e9fc;
 }
 
 /* Footer section */
