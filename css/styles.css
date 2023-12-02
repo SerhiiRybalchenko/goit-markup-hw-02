@@ -79,6 +79,7 @@ button {
 }
 
 .adress {
+  color: #434455;
 }
 .adress-tel {
   color: #434455;
@@ -146,8 +147,7 @@ button {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.team-list,
-.portfolio-list {
+.team-list {
   background-color: #ffffff;
 }
 .team-item {
@@ -161,14 +161,12 @@ button {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  background-color: #ffffff;
 }
 .team-caption {
   text-align: center;
 }
 
 .team-desk {
-  background-color: #ffffff;
   text-align: center;
 }
 
