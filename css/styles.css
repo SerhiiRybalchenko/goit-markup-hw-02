@@ -80,6 +80,7 @@ button {
 .adress-item {
 }
 .adress-mail {
+  color: #434455;
 }
 .adress-tel {
   color: #434455;
@@ -147,7 +148,6 @@ button {
   text-transform: capitalize;
 }
 .team-list {
-  background-color: #ffffff;
 }
 .team-item {
 }
@@ -160,8 +160,11 @@ button {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  background-color: #ffffff;
 }
+
 .team-desk {
+  background-color: #ffffff;
   text-align: center;
 }
 /* Footer section */
