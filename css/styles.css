@@ -179,6 +179,7 @@ a:focus {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 48px;
 }
 .hero-btn {
   height: 56px;
@@ -196,6 +197,8 @@ a:focus {
   padding: 16px 32px;
   gap: 10px;
   border: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-btn:hover,
 .hero-btn:active {
@@ -235,6 +238,7 @@ a:focus {
 .team {
 }
 .team-title {
+  padding-top: 120px;
 }
 .team-title,
 .portfolio-title {
@@ -325,7 +329,7 @@ a:focus {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-left: 156px;
-  padding-bottom: ;
+  padding-bottom: 17.5px;
 }
 .logo-span-footer {
   color: #f4f4fd;
