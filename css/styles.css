@@ -249,7 +249,7 @@ a:focus {
   margin-right: auto;
 }
 .team-list {
-  display: flex;
+  display: inline-flex;
   gap: 24px;
   padding-bottom: 120px;
   display: inline-flex;
