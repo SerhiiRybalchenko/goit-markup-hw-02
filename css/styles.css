@@ -26,10 +26,8 @@ body {
 
 .container {
   width: 1158px;
-  padding-left: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
 }
 .section {
   padding-top: 120px;
@@ -90,11 +88,12 @@ a:focus {
   display: flex;
   justify-content: space-between;
   align-content: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .header .container {
   display: flex;
+  border-bottom: 1px solid #e7e9fc;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header .header-nav {
@@ -110,7 +109,7 @@ a:focus {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 60px;
+  margin-right: 76px;
   display: inline-flex;
   align-items: center;
   padding-left: 156px;
@@ -163,9 +162,10 @@ a:focus {
   justify-content: center;
 }
 .hero {
+  padding: 188px 0;
 }
 .hero-item {
-  width: 496px;
+  max-width: 496px;
   color: #fff;
   font-size: 56px;
   font-weight: 700;
@@ -177,6 +177,8 @@ a:focus {
   justify-content: center;
 }
 .hero-btn {
+  height: 56px;
+  min-width: 169px;
   background: #4d5ae5;
   color: #ffffff;
   font-weight: 500;
@@ -186,10 +188,11 @@ a:focus {
   background: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: var(--WHITE, #fff);
-  display: flex;
+  display: block;
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
+  border: none;
 }
 .hero-btn:hover,
 .hero-btn:active {
