@@ -30,6 +30,7 @@ body {
   padding: 0 15px 0 15px;
 }
 .section {
+  padding: 120px 0;
 }
 /* reset styles */
 
@@ -83,19 +84,17 @@ a:focus {
 
 /* Header section */
 
-.header-container {
+.header {
   display: flex;
   justify-content: space-between;
-  align-content: center;
-}
-.header {
-  padding-top: 120px 0;
+  align-items: center;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header .container {
   display: flex;
-  border-bottom: 1px solid #e7e9fc;
   padding-top: 24px;
   padding-bottom: 24px;
+  align-items: center;
 }
 
 .header .header-nav {
@@ -135,8 +134,8 @@ a:focus {
 }
 .header-list-link {
   display: flex;
-  gap: 40px;
   margin-right: 0;
+  padding: 24px 0 24px;
 }
 .header-adress {
   color: #434455;
@@ -149,6 +148,7 @@ a:focus {
 .adress {
   color: #434455;
   display: flex;
+  margin-left: auto;
 }
 .adress {
   color: #434455;
@@ -209,7 +209,6 @@ a:focus {
 
 /* Features section */
 .features {
-  padding-top: 120px 0;
 }
 .features-list {
   display: flex;
