@@ -176,9 +176,8 @@ a:focus {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  margin-bottom: 48px;
-  padding-top: 188px;
-  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-btn {
   height: 56px;
@@ -194,7 +193,6 @@ a:focus {
   color: var(--WHITE, #fff);
   display: block;
   padding: 16px 32px;
-  align-items: flex-start;
   gap: 10px;
   border: none;
 }
@@ -249,7 +247,6 @@ a:focus {
   margin-bottom: 72px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 120px;
 }
 .team-list {
   display: flex;
@@ -278,6 +275,7 @@ a:focus {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .team-name {
   display: block;
