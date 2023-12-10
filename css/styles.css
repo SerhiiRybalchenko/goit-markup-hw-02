@@ -30,7 +30,6 @@ body {
   padding: 0 15px 0 15px;
 }
 .section {
-  padding-top: 120px 0;
 }
 /* reset styles */
 
@@ -88,6 +87,7 @@ a:focus {
   display: flex;
   justify-content: space-between;
   align-content: center;
+  padding-top: 120px 0;
 }
 .header .container {
   display: flex;
@@ -212,6 +212,7 @@ a:focus {
   display: flex;
   gap: 24px;
   justify-content: center;
+  padding-top: 120px 0;
 }
 .features-item {
   width: 264px;
