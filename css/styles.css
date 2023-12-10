@@ -89,12 +89,14 @@ a:focus {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #e7e9fc;
+  padding: 0 15px 0 15px;
 }
 .header .container {
   display: flex;
   padding-top: 24px;
   padding-bottom: 24px;
   align-items: center;
+  padding: 0 15px 0 15px;
 }
 
 .header .header-nav {
@@ -232,6 +234,7 @@ a:focus {
 }
 
 /* Team section */
+
 .team-container {
   background: #f4f4fd;
 }
@@ -257,7 +260,6 @@ a:focus {
   display: flex;
   gap: 24px;
   padding-bottom: 120px;
-  display: inline-flex;
   padding-bottom: 32px;
   justify-content: center;
   align-items: center;
@@ -327,7 +329,7 @@ a:focus {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-left: 156px;
-  margin-bottom: 17.5px;
+  margin-bottom: 16px;
 }
 .logo-span-footer {
   color: #f4f4fd;
