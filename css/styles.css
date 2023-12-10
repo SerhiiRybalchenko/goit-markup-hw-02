@@ -161,12 +161,13 @@ a:focus {
 
 /* Hero section */
 .hero-container {
-  background-color: #2e2f42;
   align-content: center;
   justify-content: center;
+  width: 1158px;
 }
 .hero {
   padding: 188px 0;
+  background-color: #2e2f42;
 }
 .hero-item {
   max-width: 496px;
@@ -312,8 +313,10 @@ a:focus {
 /* Footer section */
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer-logo {
+  display: flex;
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -321,10 +324,14 @@ a:focus {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-left: 156px;
+  padding-bottom: ;
 }
 .logo-span-footer {
   color: #f4f4fd;
 }
 .footer-text {
+  width: 264px;
   color: #f4f4fd;
+  margin-left: 156px;
 }
