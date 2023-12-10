@@ -87,6 +87,8 @@ a:focus {
   display: flex;
   justify-content: space-between;
   align-content: center;
+}
+.header {
   padding-top: 120px 0;
 }
 .header .container {
@@ -207,12 +209,12 @@ a:focus {
 
 /* Features section */
 .features {
+  padding-top: 120px 0;
 }
 .features-list {
   display: flex;
   gap: 24px;
   justify-content: center;
-  padding-top: 120px 0;
 }
 .features-item {
   width: 264px;
