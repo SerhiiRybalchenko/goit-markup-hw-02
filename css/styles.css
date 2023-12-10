@@ -30,7 +30,7 @@ body {
   padding: 0 15px 0 15px;
 }
 .section {
-  padding-top: 120px;
+  padding-top: 120px 0;
 }
 /* reset styles */
 
@@ -133,6 +133,8 @@ a:focus {
 }
 .header-list-link {
   display: flex;
+  gap: 40px;
+  margin-right: 0;
 }
 .header-adress {
   color: #434455;
