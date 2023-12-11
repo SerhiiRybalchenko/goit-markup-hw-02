@@ -86,15 +86,12 @@ a:focus {
 
 .header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #e7e9fc;
   padding: 0 15px 0 15px;
 }
 .header .container {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
   padding: 0 15px 0 15px;
   align-items: center;
 }
@@ -129,7 +126,7 @@ a:focus {
   display: flex;
   gap: 40px;
   margin-right: 0;
-  padding: 24px 0 24px;
+
   align-items: center;
 }
 .header-nav:hover,
@@ -139,6 +136,7 @@ a:focus {
 .header-item {
 }
 .header-list-link {
+  padding: 24px 0 24px;
 }
 .header-adress {
   color: #434455;
@@ -146,7 +144,7 @@ a:focus {
 }
 .adress-list {
   display: flex;
-  margin-left: auto;
+  gap: 40px;
   margin-right: 0;
 }
 
@@ -327,7 +325,7 @@ a:focus {
   margin-left: 16px;
 }
 .portfolio-pic {
-  display: flex;
+  display: block;
   margin-bottom: 32px;
 }
 .portfolio-desk {
