@@ -302,6 +302,7 @@ a:focus {
 
 /* Portfolio section */
 .portfolio-container {
+  padding: 120px 0 120px 0;
 }
 .portfolio {
   padding-top: 0;
@@ -317,8 +318,8 @@ a:focus {
   /* width: 360px; */
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
-  margin-left: auto;
   margin-bottom: 48px;
+  margin-right: auto;
 }
 .portfolio-caption {
   display: flex;
